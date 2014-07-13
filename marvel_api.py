@@ -7,8 +7,7 @@ from api.stories import MarvelStories
 
 class MarvelAPIObject(object):
 	BASE_URL = "http://gateway.marvel.com:80/v1/public"
-	API_KEY = None
-
+	
 	def __init__(self, apikey=None):
 		self.API_KEY = apikey
 
