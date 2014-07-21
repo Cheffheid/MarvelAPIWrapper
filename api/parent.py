@@ -1,4 +1,4 @@
-class MarvelAbstract(object):
+class MarvelParent(object):
 
 	def getList(self, args):
 		request_url = self.API_URL + '?apikey=%s' % self.API_KEY

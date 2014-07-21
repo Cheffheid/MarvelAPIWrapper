@@ -1,6 +1,6 @@
-from abstract import MarvelAbstract
+from parent import MarvelParent
 
-class MarvelCharacters(MarvelAbstract):
+class MarvelCharacters(MarvelParent):
 
 	def __init__(self, apikey, base_url):
 		self.API_URL = base_url + '/characters'
