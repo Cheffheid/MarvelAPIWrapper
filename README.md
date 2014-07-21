@@ -24,9 +24,6 @@ From there, you can get information about characters, comics, creators, events, 
 
 ```python
 print marvel.characters.getOne(15)
-```
-
-```python
 print marvel.characters.getList(arguments)
 ```
 
